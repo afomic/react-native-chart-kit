@@ -109,7 +109,7 @@ class AbstractChart extends Component {
           textAnchor="end"
           y={y}
           fontSize={12}
-          fill={this.props.chartConfig.color(0.5)}
+          fill={this.props.chartConfig.color()}
         >
           {yLabel}
         </Text>
